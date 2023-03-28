@@ -1,6 +1,11 @@
 # Blog
-AI绘画相关
-
+- 🤖️ 小前端自学机器学习AI绘画的全部资料
+- 🧠 blog不是很专业，但尽力做到容易看懂
+- 🙏 出错之处欢迎多多指正
 
 ## AI入门
-- [初识AI绘画](https://github.com/colamini/Blog/blob/main/articles/%E5%88%9D%E8%AF%86AI%E7%BB%98%E7%94%BB.md)
+[初识AI绘画](./articles/初识AI绘画.md)
+
+## 深度学习系列
+[深度学习基本介绍](./articles/深度学习/深度学习基本介绍.md)
+
