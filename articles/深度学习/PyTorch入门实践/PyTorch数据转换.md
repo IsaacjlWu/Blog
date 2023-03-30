@@ -4,10 +4,10 @@
 
 将图片转换为 `PyTorch Tensor`也是在计算机视觉领域中的一项常见任务。可以使用 `PyTorch` 的工具 `torchvision` 中的 `transforms` 模块，将图像转换为 `PyTorch 张量`。
 
-<img src="../../../images/PyTorch/图片转换为tensor.png" width="400" />
+<img src="../../../images/PyTorch/数据处理与加载/图片转换为tensor.png" width="400" />
 
 > 其中，`Tensor`包括`scalar标量`、`vector向量`、`matrix矩阵`、多维张量等。
-<img src="../../../images/PyTorch/tensor基本介绍.png" width="400" />
+<img src="../../../images/PyTorch/数据处理与加载/tensor基本介绍.png" width="400" />
 
 以下是使用 `torchvision.transforms` 库将图片转换为 `PyTorch 张量`的示例：
 
@@ -57,7 +57,7 @@ print(img_tensor.dtype) # torch.float32
 
 > - **除以255**：将像素值缩放到[0,1]的范围内，其实就是最大最小值归一化，这种方法是将每个像素值除以255得到的。
 
-<img src="../../../images/PyTorch/数据归一化常用方法.png" width="400" />
+<img src="../../../images/PyTorch/数据处理与加载/数据归一化常用方法.png" width="400" />
 
 在 `PyTorch` 中，可以使用 `torchvision.transforms.Normalize()` 函数来归一化图像数据，`Normalize` 函数采用的归一化方法是`z-score归一化`，后文有更详细的介绍。
 
@@ -86,7 +86,7 @@ img_transformed = transform(img)
 整体图片数据预处理过程如下图所示⬇️
 
 
-<img src="../../../images/PyTorch/数据预处理基础.png" width="6000" />
+<img src="../../../images/PyTorch/数据处理与加载/数据预处理基础.png" width="6000" />
 
 ### 2.2 ToTensor vs Normalize
 `torchvision.transforms.ToTensor()` 和 `torchvision.transforms.Normalize()` 都是 `PyTorch` 中常用的图像数据预处理函数，但它们的功能不同。

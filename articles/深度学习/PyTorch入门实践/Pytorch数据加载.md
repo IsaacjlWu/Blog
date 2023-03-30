@@ -7,7 +7,7 @@
 > 其中，`Dataset(torch.utils.data.Dataset、torchvision.datasets.ImageFolder等)`数据集中封装了数据转换的一些细节;然后使用`DataLoader(torch.utils.data.DataLoader)`对数据进行并行加载。
 
 具体的数据加载过程我用一张序列图来大概表示⬇️：
-<img src="../../../images/PyTorch/数据加载时序.jpeg" width="800" />
+<img src="../../../images/PyTorch/数据处理与加载/数据加载时序.jpeg" width="800" />
 
 
 ## 数据加载 ⚙️
@@ -15,7 +15,7 @@
 `DataLoader` 是 `PyTorch` 中用于批量加载数据的类。它可以接受任何 `PyTorch` 中的数据集对象（如 `torch.utils.data.Dataset` 类型、`torchvision.datasets.ImageFolder`类型），并将其转换为可以进行批量处理和并行加载的数据加载器。
 
 
-<img src="../../../images/PyTorch/DataLoader参数.jpeg" width="600" />
+<img src="../../../images/PyTorch/数据处理与加载/DataLoader参数.jpeg" width="600" />
 
 在使用 `DataLoader` 时，我们可以设置一些参数来控制数据的加载方式和批处理方式，包括：
 
