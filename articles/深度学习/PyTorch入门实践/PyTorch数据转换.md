@@ -125,7 +125,6 @@ img_transformed = transform(img)
 下面是一个示例代码⬇️：
 
 ```python
-Copy code
 import torch
 import torchvision.transforms as transforms
 from torchvision.utils import make_grid
